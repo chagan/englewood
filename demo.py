@@ -26,9 +26,9 @@ def get_data(feature):
     # Get the correct ward data
     try:
         ward = ward_data[ward_id]
-        print 'Processing ward "%s"' % ward_id
+        print('Processing ward "%s"' % ward_id)
     except KeyError:
-        print 'No data for ward "%s"' % ward_id
+        print('No data for ward "%s"' % ward_id)
         return None
 
     return {
